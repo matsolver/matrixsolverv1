@@ -1,10 +1,12 @@
-def transpose2x2(my_matrix):
+def transpose2x2 (my_mat):
     '''
-    Transposes your matrix.
+    Transposes a 2x2 matrix.
+
     Args:
-        my_matrix (i have no idea what datatype a list is): a 2x2 matrix to transpose
+        my_mat(list)
+
     Returns:
-        my_matrix_transposed
-    
+        my_mat_t (list)
     '''
-    print("this will be awesome one day, maybe")
+
+    print("This code will be awesomesauce one day!")
