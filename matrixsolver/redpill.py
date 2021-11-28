@@ -32,7 +32,7 @@ def det2x2 (my_mat):
     Returns:
         det_my_mat(list[list[int]])
     '''
-
+    print('hello :)')
     #ad - bc
     return ((my_mat[0][0] * my_mat[1][1]) - (my_mat[0][1] * my_mat[1][0]))
 #####
