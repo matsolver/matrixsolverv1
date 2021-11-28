@@ -4,10 +4,10 @@ def transpose2x2 (my_mat):
     Transposes a 2x2 matrix.
 
     Args:
-        my_mat(nested list)
+        my_mat(list[list[int]])
 
     Returns:
-        my_mat_t (nested list)
+        my_mat_t (list[list[int]])
     '''
     my_mat_row1 = []
     my_mat_row2 = []
@@ -27,18 +27,12 @@ def det2x2 (my_mat):
     Finds the determinant of a 2x2 matrix.
 
     Agrs:
-        my_mat(nested list)
+        my_mat(list[list[int]])
 
     Returns:
-        det_my_mat(nested list)
-    
+        det_my_mat(list[list[int]])
     '''
 
     #ad - bc
     return ((my_mat[0][0] * my_mat[1][1]) - (my_mat[0][1] * my_mat[1][0]))
 #####
-
-
-bigboi = [[1,2],[3,4]]
-print(transpose2x2(bigboi))
-print(det2x2(bigboi))
